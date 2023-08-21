@@ -19,11 +19,18 @@ npm install
     
 ## Usage
     
-First download the repo, then you change to the drectory where the index.js is and run the command 'node index.js'
+First download the repo, then you change to the drectory where the index.js is and run the command 'npm start' which will start the database.
 
-Then you follow the prompts for generating your very own SVG file!
+you will be given a series of promts that will be used to acccess the manipulate the database:
 
-A vidio of the file can be found at [SVG Example Video](https://drive.google.com/file/d/1xArJwJ-3MheQKKrZbGVxR8Ee0MNCdfwR/view)
+- 'view all departments'
+- 'view all roles'
+- 'view all employees'
+- 'add a department'
+- 'add a role' 
+- 'add an employee' 
+- 'update an employee role'
+- 'exit'
     
 ## Credits
     
@@ -38,4 +45,4 @@ A vidio of the file can be found at [SVG Example Video](https://drive.google.com
 
     
 ## Questions
-    
+I had a lot of fun writing some of the outputs for the files and would love to clean them up more when I have more time.    
