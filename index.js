@@ -16,12 +16,14 @@ const db = mysql.createConnection(
     console.log(`Connected to the eployees_db database.`)
 );
 
-// print intro
-printIntro();
+
 // load main menu
 mainMenu();
 
 function mainMenu(){
+    // print intro
+    printIntro();
+    // start to ask user for actions
     inquirer.prompt([
         {
             type: 'list',
